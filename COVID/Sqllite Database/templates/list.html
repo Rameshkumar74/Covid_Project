@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html >
+    <link rel="stylesheet" href="../static/CSS/list.css">
+    <Style>
+        table, tr, th{
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+    </Style>
+    <title>DETAILS</title>
+<body>
+    <H1> <a href= "/">Home Page</a>  </H1>
+    <H1> <a href= "/enternew">Vaccine Form</a>  </H1>
+    
+
+    <div class="landing">
+        <header>
+            <label > REGISTERED RECORDS </label> 
+        </header>   
+    <table border="2">
+    <tbody>   
+        <tr>
+            <thead>
+                <td>AADHAR</td>
+                <td>NAME</td>
+                <td>EMAIL</td>
+                <td>AGE</td>    
+                <td>DOSES</td>            
+            </thead>
+        </tr>
+    
+        {% for row in rows %}
+           <tr>
+            <td>{{row["aadhar"]}}</td>
+            <td>{{row["name"]}}</td>
+            <td>{{row["email"]}}</td>
+            <td>{{row["age"]}}</td>
+            <td>{{row["doses"]}}</td>
+           </tr>
+        {% endfor %}
+    </tbody>       
+    </table>      
+</body>
+</html>
+
+

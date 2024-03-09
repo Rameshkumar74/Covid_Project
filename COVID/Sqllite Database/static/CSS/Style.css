@@ -1,0 +1,108 @@
+:root{
+    --red: #af3d10;
+    --Blacky :rgba(0,0,0,.7);
+    --white: whitesmoke;
+}
+
+body{
+    margin:0;
+    background-image: url('../Blue..jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;   
+}
+
+.landing{font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+label{
+    padding-top: 0.2em;
+    color: var(--red);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    min-width: 300px;
+    font-size: 3.5em;
+    font-stretch: extra-expanded;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 0.2em;
+    font-weight: bolder;
+}
+
+header{
+    background-color: rgba(0,0,0,.8);
+    margin: 10px ;    
+    padding: 10px 40PX 10px;
+    display: flex;
+    justify-content: center;
+}
+
+header a{
+    text-align: center;
+    text-decoration: none;                   
+    color: whitesmoke;
+    border: 10px solid rgb(156, 213, 236);
+    font-weight: bolder;
+    font-size: 1.4em;
+}
+
+nav{
+    max-width: 1800px;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex:4;
+}
+
+nav a{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+    flex: 4;
+}
+
+nav a:hover{color: #a53002;}
+
+nav a:focus{color: #af3d10;}
+.maintext{
+    display: flex;
+    flex-direction: column;
+    margin: 10px ; 
+    padding-left: 6em;
+    height: 15vh;
+    font-size: larger;
+}
+
+.tagline1{
+    color: var(--red);
+    font-weight: bolder;
+    font-size: 2.5em;
+        
+}
+.tagline2{
+    color: var(--Blacky);
+    font-weight: bolder;
+    font-size: 1.3em;
+    margin-top: 0.6em;
+}   
+
+.tagline3{
+    color:var(--Blacky);
+    font-weight: bolder;
+    font-size: 1.3em;
+    margin-top: 0.6em;
+}
+.Callus{
+    font-weight: bolder;
+    font-size: 1.5em;
+    margin-top: 0.8em;
+    padding-bottom: 1em;
+}

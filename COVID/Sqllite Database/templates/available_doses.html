@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Available Doses</title>
+    <link rel="stylesheet" href="../static/CSS/doses.css">
+</head>
+<body>
+    <header>   
+                                    
+        <nav>
+            <a href="/">HOME</a>
+            <a href="/enternew">VACCINATION FORM</a>
+            <a href="/list">VIEW DETAILS</a>
+            <a href="/out">LOCATIONS</a>
+        </nav>
+    </header>
+    
+    <h1>Available Doses</h1>
+    <ul>
+    {% for dose in available_doses %}
+        <li>{{ dose.vaccine }}: {{ dose.doses }}</li>
+    {% endfor %}
+    </ul>
+    <h2> Click on the loctions to know the hospitalized camps</h2>
+</body>
+</html>

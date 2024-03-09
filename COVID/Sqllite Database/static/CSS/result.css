@@ -1,0 +1,40 @@
+body{
+    background: url(../relt.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;   
+} 
+
+.sheild{
+    display: flex; 
+    flex-direction: column; 
+}
+
+nav{display:flex;
+    justify-content: center;
+    font-size: 1.8em;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    background-color: rgba(18, 137, 173, 0.9);
+    margin:2em;
+    text-align: center;
+    padding-top: 1em;
+}
+
+h2{
+    font-size: 1.8em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    text-transform: uppercase;
+    text-decoration: overline;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.2em;
+    padding-right: 2em;
+}
+
+.sheild1{
+    font-size: 1.8em;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
